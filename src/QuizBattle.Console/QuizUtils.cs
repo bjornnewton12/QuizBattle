@@ -37,6 +37,6 @@ public class QuizUtils
                 new Choice("Q1.2", "Tre ben"),
                 new Choice("Q1.3","Fyra ben")
         };
-        _questions.Add(new Question(choices));
+        _questions.Add(new Question(choices, "Q1.3"));
     }
 }
