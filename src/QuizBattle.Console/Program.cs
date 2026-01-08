@@ -10,7 +10,7 @@ Console.WriteLine("Tryck valfri tangent för att starta...");
 Console.ReadKey(true);
 Console.WriteLine();
 
-while (!QuestionUtils.IsCompleted())
+foreach(var question in questions.Take(3))
 {
     QuestionUtils.DisplayQuestion();
     int answer = QuestionUtils.GetAnswer();
