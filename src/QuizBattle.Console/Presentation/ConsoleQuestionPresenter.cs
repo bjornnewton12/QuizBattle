@@ -1,5 +1,4 @@
 ﻿using QuizBattle.Domain;
-using QuizBattle.Console.Extensions;
 
 namespace QuizBattle.Console.Presentation
 {

@@ -10,7 +10,8 @@ const int numberOfQuestions = 3;
 var services = new ServiceCollection();
 
 services.AddInfrastructureRepositories()    // Definierad i QuizBattle.Infrastructure
-        .AddApplicationServices();          // Definierad i QuizBattle.Application
+        .AddApplicationServices()
+        .AddConsolePresentation();          // Definierad i QuizBattle.Application
 
 // bygg en service provider
 var provider = services.BuildServiceProvider();

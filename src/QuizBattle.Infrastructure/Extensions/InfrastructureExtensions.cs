@@ -1,4 +1,4 @@
-﻿//using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 
 using QuizBattle.Application.Interfaces;
 using QuizBattle.Infrastructure.Repositories;
